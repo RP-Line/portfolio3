@@ -1,0 +1,194 @@
+#herodiv{
+    background-color: #586F6B;
+    border-radius: 15px;
+    padding:12px;
+    margin: 10px 50px 30px 50px;
+    text-align: center;
+    color:#DDD5D0;
+    font-size: 17pt;
+}
+
+a{
+    color:#DDD5D0;
+    margin:10px;
+}
+
+a:hover{
+    color:#aea2a0;
+}
+
+#aboutmediv{
+    background-color: #CFC0BD;
+    color:#586F6B;
+    padding:20px;
+    margin:0px 50px 30px 50px;
+    border-radius: 15px;
+}
+
+#catGif{
+    border: 5px solid #586F6B;
+    border-radius: 50%;
+    position: relative;
+    left:40%;
+}
+
+#skillsdiv{
+    background-image: url(Forest💚.jpeg);
+    padding:20px;
+    margin:0px 50px 30px 50px;
+    border-radius: 15px;
+    color:#DDD5D0;
+}
+
+#skillListDiv{
+    background-color: #DDD5D0;
+    /* opacity: 40%; */
+    border-radius: 15px;
+    display:flex;
+    padding:12px;
+    color:#cfc0bd;
+    justify-content: space-evenly;
+}
+
+span{
+  background-color: #586F6B;
+  display:inline-block;
+  position:relative;
+  padding:12px;
+  width:90px;
+  height:20px;
+  border-radius: 10px;
+  font-size:15pt;
+  text-align: center;
+  vertical-align: middle;
+  transition: width 0.3s ease-in-out, 
+              height 0.3s ease-in-out, 
+              background-color 0.3s ease-in-out, 
+              color 0.3s ease-in-out;
+}
+
+span:hover{
+    width:100px;
+    height:30px;
+    background-color: #b8b8aa;
+    color:#586f6b;
+}
+
+#projectsdiv{
+    background-color: #DDD5D0;
+    padding:12px;
+    border-radius: 15px;
+    margin: 0px 50px 30px 50px;
+}
+
+#projectDiv1{
+    background-color: #586f6b;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    width:30%;
+    height:150px;
+    font-size: 15pt;
+    text-align:center;
+}
+
+#projectDiv2{
+    background-color: #7f9183;
+    padding:10px;
+    border-radius: 10px;
+    margin:10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width:30%;
+    height:150px;
+    font-size: 15pt;
+    text-align:center;
+}
+
+#projectDiv3{
+    background-color: #b8b8aa;
+    padding:10px;
+    border-radius: 10px;
+    margin: 0px 0px 10px 10px;
+    width:100%;
+    height:150px;
+    font-size: 15pt;
+    text-align:center;    
+}
+
+#projectDiv4{
+    position:absolute;
+    background-color: #7f9183;
+    padding:12px;
+    width:30%;
+    height:150px;
+    font-size: 15pt;
+    text-align:center;
+    border-radius: 10px;
+    top:70%;
+}
+
+#contactmediv{
+    background-color: #CFC0BD;
+    padding:12px;
+    border-radius: 15px;
+    margin: 0px 50px 30px 50px;
+}
+
+input, textarea{
+    display: block;
+    margin:10px 0px 10px 10px;
+    width:100%;
+    border:2px solid grey;
+}
+
+#name,#email{
+    height:30px;
+}
+
+#msg{
+    height:90px;
+}
+
+label{
+    margin-left:10px;
+}
+
+#submit{
+    background-color:#DDD5D0 ;
+    border-color:#586f6b;
+    color:#586f6b;
+    width:100px;
+    height:45px;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+footer{
+    margin: 0px 50px 0px 50px;
+    background-color: #586f6b;
+    color:#DDD5D0;
+    text-align: center;
+    padding:0.1px;
+    border-radius: 10px;
+}
+
+#iconDiv{
+    position:fixed;
+    display: flex;
+    background-color: #DDD5D0;
+    bottom: 10%;
+    right:10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconDiv:hover{
+    cursor: pointer;
+}
